@@ -6,7 +6,7 @@
 }
 
 :root{
-    --primary-color:rgb(168, 81, 0);
+    --primary-color:rgb(8, 0, 255);
     --text-color:white;
     --border-line:gray;
 }
@@ -18,8 +18,16 @@ body{
     flex-direction: column;
     height: 90vh;
 }
+.container{
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(244, 243, 243);
+}
 h1{
+    font-size: 40px;
     color: var(--primary-color);
+    margin-bottom: 30px;
 }
 p{
     text-align: center;
@@ -34,13 +42,14 @@ p{
     cursor: pointer;
 }
 img {
-    width: 200px;
+    width: 250px;
 }
 .currency{
     padding: 40px 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .currency select{
     padding: 10px;
